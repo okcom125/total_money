@@ -103,7 +103,7 @@
       <td><input type="text" name="f_1" value="0"></td>
     </tr>
     <tr>
-      <td colspan="2">TOTAL</td>
+      <td colspan="2">TOTAL(合計)</td>
       <td><input type="text" name="f_total" value="0" onChange="calc()"></td>
     </tr>
   </tbody>
