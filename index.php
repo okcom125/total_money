@@ -50,6 +50,7 @@
       <th scope="col">数量（Quantity）</th>
       <th scope="col">小計（Subtotal）</th>
     </tr>
+    
     <tr>
       <td>\10,000</td>
       <td><input type="text" name="q_10000" value="0" onChange="calc()"></td>
@@ -110,5 +111,15 @@
 </table>
 	</form>
 
+	<p>今後の対応</p>
+	<ul>
+		<li>JSファイルの分離</li>
+		<li>tableそれぞれの項目を配列で表示できないか</li>
+		<li>小計・合計の数値にカンマを入れて表示する</li>
+		<li>HTML５アプリとして登録できるようにする</li>
+		<li>CSSにて調整</li>
+		<li>紙幣・貨幣を画像で表示する</li>
+	</ul>
+	
 </body>
 </html>
