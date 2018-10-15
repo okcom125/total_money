@@ -3,12 +3,13 @@
 <head>
 <meta charset="utf-8">
 <title>TOTAL MONEY</title>
-<script type="text/javascript" src="builds/development/js/script.js"></script>	
+<link rel="stylesheet" type="text/css" href="./components/style.css">
+<script type="text/javascript" src="./builds/development/js/script.js"></script>	
 </head>
 
 <body>
 <form name="form_calc">
- <table width="200" border="1">
+ <table class="money">
   <tbody>
     <tr>
       <th scope="col">種類（Kind）</th>
@@ -86,6 +87,7 @@
 		<li>小計・合計の数値にカンマを入れて表示する</li>
 		<li>HTML５アプリとして登録できるようにする</li>
 		<li>CSSにて調整</li>
+		<li>SCSSにて調整(タスクランナー導入)</li>
 		<li>紙幣・貨幣を画像で表示する</li>
 		<li>リッチなデザインにまとめる</li>
 	</ul>
